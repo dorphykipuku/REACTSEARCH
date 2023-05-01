@@ -23,6 +23,12 @@ const Navbar= function(){
         <Link className="nav-item nav-link" to="/exe">
          Exercice
         </Link>
+        <Link className="nav-item nav-link" to="/se">
+        Search
+        </Link>
+        <Link className="nav-item nav-link" to="/pa">
+        Pagination
+        </Link>
       </ul>
      
     

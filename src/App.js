@@ -6,8 +6,10 @@ import Home from './components/Home';
 import Test from './components/Test';
 import Modifier from './components/Modifier';
 import Details from './components/Details';
-import Search from './components/Search';
+
 import Exercice from './components/Exercice';
+import Cherche from './components/Cherche';
+import Pagination from './components/Pagination';
 
 function App() {
   return (
@@ -19,8 +21,9 @@ function App() {
       <Route path='/test' element={<Test/>}/>
       <Route path='/mod/:id' element={<Modifier/>}/>
       <Route path='/det/:id' element={<Details/>}/>
-      <Route path='/se/:nom' element={<Search/>}/>
+      <Route path='/se' element={<Cherche/>}/>
       <Route path='/exe' element={<Exercice/>}/>
+      <Route path='/pa' element={<Pagination/>}/>
     </Routes>
     </BrowserRouter>
   );
